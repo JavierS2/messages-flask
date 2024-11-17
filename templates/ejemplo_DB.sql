@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS registros
+
+CREATE TABLE registros (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(255) NOT NULL,
+    correo VARCHAR(255) NOT NULL,
+    mensaje TEXT NOT NULL
+);
